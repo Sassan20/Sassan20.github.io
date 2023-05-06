@@ -225,3 +225,32 @@ h3 {
   transition: .4s;
   cursor: pointer;
 }
+
+@media (max-width: 720px) { 
+  .navbar{
+    width: auto;
+  }
+  .menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+  }
+    footer {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr max-content;
+      grid-template-areas:
+        'teks teks'
+        'article nav'
+        'sosmed sosmed'
+        'copy copy'
+  }
+  .sosmed{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .list-sosmed{
+    display: flex;
+  }
+}
